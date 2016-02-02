@@ -1,0 +1,20 @@
+{
+    "name": "blueoak-server-template",
+    "version": "1.0.0",
+    "description": "Use this package as a template to create your own BlueOak Server-base project.",
+    "license": "MIT",
+    "scripts": {
+        "start": "blueoak-server",
+        "lint": "eslint --ignore-pattern node_modules **/*.js",
+        "test": "mocha --check-leaks --globals services,__appDir test/unit; npm run lint"
+    },
+    "dependencies": {
+        "blueoak-server": "^2.0.0",
+        "request": "^2.51.0"
+    },
+    "devDependencies": {
+        "eslint": "^1.10.3",
+        "eslint-config-defaults": "^8.0.2",
+        "mocha": "^2.3.4"
+    }
+}

@@ -1,0 +1,14 @@
+{
+	"express": {
+		"port": "3003",
+		"middleware": [
+			"bodyParser"
+		]
+	},
+	"cluster": {
+		"maxWorkers": 1
+	},
+	"bodyParser": {
+		"json": {}
+	}
+}
