@@ -1,7 +1,7 @@
 {
     "name": "blueoak-server-template",
     "version": "1.0.0",
-    "description": "Use this package as a template to create your own BlueOak Server-base project.",
+    "description": "Use this package as a template to create your own BlueOak Server-based project.",
     "license": "MIT",
     "scripts": {
         "start": "blueoak-server",
