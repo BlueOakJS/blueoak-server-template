@@ -7,7 +7,7 @@ You can [clone this repository][https-clone] or [download the zip file][dl-maste
 Here are some steps you could take from a *nix shell to get the project and make it your own:
 
 ```sh
-git clone --depth 1 git@github.com:PointSource/blueoak-server-template.git my-new-project
+git clone --depth 1 git@github.com:BlueOakJS/blueoak-server-template.git my-new-project
 cd my-new-project
 rm -fr .git/
 git init
@@ -48,6 +48,6 @@ You can then start the server with either `npm start` or `nodemon`.
 
 For details on using BlueOak Server, check out the [wiki][bos-wiki].
 
-[bos-wiki]: https://github.com/PointSource/blueoak-server/wiki
-[dl-master]: https://github.com/PointSource/blueoak-server-template/archive/master.zip
-[https-clone]: https://github.com/PointSource/blueoak-server-template.git
+[bos-wiki]: https://github.com/BlueOakJS/blueoak-server/wiki
+[dl-master]: https://github.com/BlueOakJS/blueoak-server-template/archive/master.zip
+[https-clone]: https://github.com/BlueOakJS/blueoak-server-template.git

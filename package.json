@@ -4,9 +4,13 @@
     "description": "Use this package as a template to create your own BlueOak Server-based project.",
 		"repository": {
 			"type": "git",
-			"url": "git@github.com:PointSource/blueoak-server-template.git"
+			"url": "git@github.com:BlueOakJS/blueoak-server-template.git"
 		},
     "license": "MIT",
+		"author": "Sean Kennedy <sean.kennedy@pointsource.com>",
+		"contributors": [
+			"Patrick Wolf <patrick.wolf@pointsource.com>"
+		],
     "scripts": {
         "start": "blueoak-server",
         "lint": "eslint --ignore-pattern node_modules **/*.js",

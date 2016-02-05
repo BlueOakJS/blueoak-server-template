@@ -1,3 +1,3 @@
 # Add your service modules here
 
-learn more: <https://github.com/PointSource/blueoak-server/wiki/Services>
+learn more: <https://github.com/BlueOakJS/blueoak-server/wiki/Services>
