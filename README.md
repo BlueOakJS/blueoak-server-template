@@ -42,7 +42,7 @@ At this point, you'll want to update the `package.json` file to change the **nam
 }
 ```
 
-You can then start the server with either `npm start` or `nodemon`.
+Install the project dependencies with `npm install`, and then run the server with one of `npm start` or `nodemon`.
 
 ## More information
 
