@@ -1,7 +1,7 @@
 {
+	"root": true,
 	"env": {
-		"node": true,
-		"mocha": true
+		"node": true
 	},
 	"extends": "defaults"
 }
