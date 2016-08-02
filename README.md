@@ -22,17 +22,16 @@ At this point, you'll want to update the `package.json` file to change the **nam
     "description": "Something for the weekend.",
 		"repository": {
 			"type": "git",
-			"url": "git@github.com:seanpkps/my-new-project.git"
+			"url": "git@github.com:seanpk/my-new-project.git"
 		},
     "license": "SEE LICENSE IN LICENSE",
     "scripts": {
-        "start": "blueoak-server",
+        "postinstall": "echo This project is configured to use BlueOak Server from a global installation. && echo To install: npm install -g blueaok-server && echo To run this project: npm start",
+        "start": "blueoak-server || npm run postinstall",
         "lint": "eslint --ignore-pattern node_modules **/*.js",
         "test": "mocha --check-leaks --globals services,__appDir test/unit; npm run lint"
     },
-    "dependencies": {
-        "blueoak-server": "^2.2.0"
-    },
+    "dependencies": {},
     "devDependencies": {
         "eslint": "^2.7.0",
         "eslint-config-defaults": "^9.0.0",
