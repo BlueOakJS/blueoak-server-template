@@ -1,4 +1,7 @@
 {
-  "ext": ".js,.json,.yaml",
-  "ignore": ["./node_modules/"]
+	"ext": ".js,.json,.yaml",
+	"ignore": [
+		"./node_modules/"
+	],
+	"exec": "npm start"
 }
