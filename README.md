@@ -31,7 +31,7 @@ At this point, you'll want to update the `package.json` file to change the **nam
         "test": "mocha --check-leaks --globals services,__appDir test/unit; npm run lint"
     },
     "dependencies": {
-        "blueoak-server": "^2.2.0"
+        "blueoak-server": "^2.5.0"
     },
     "devDependencies": {
         "eslint": "^2.7.0",
