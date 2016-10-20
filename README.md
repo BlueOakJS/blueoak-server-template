@@ -31,7 +31,9 @@ At this point, you'll want to update the `package.json` file to change the **nam
         "lint": "eslint --ignore-pattern node_modules **/*.js",
         "test": "mocha --check-leaks --globals services,__appDir test/unit; npm run lint"
     },
-    "dependencies": {},
+    "dependencies": {
+        "blueoak-server": "^2.5.0"
+    },
     "devDependencies": {
         "eslint": "^2.7.0",
         "eslint-config-defaults": "^9.0.0",
@@ -41,9 +43,6 @@ At this point, you'll want to update the `package.json` file to change the **nam
 ```
 
 Install the project dependencies with `npm install`, and then run the server with one of `npm start` or `nodemon`.
-
-**N.B.**: For this project, `npm start` and `nodemon` expect to find BlueOak Server installed globally.  
-To make sure you have the latest, or to install for the first time, run: `npm install -g blueoak-server@latest`
 
 ## More information
 
