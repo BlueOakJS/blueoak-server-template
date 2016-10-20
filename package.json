@@ -1,6 +1,6 @@
 {
   "name": "blueoak-server-template",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use this package as a template to create your own BlueOak Server-based project.",
   "repository": {
     "type": "git",
